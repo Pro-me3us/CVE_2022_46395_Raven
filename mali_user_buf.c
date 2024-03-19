@@ -67,7 +67,7 @@
 #define INIT_CRED_7633_3445 0x15fb568
 #define COMMIT_CREDS_7633_3445 0x4ccb0
 #define ADD_INIT_7633_3445 0x9115a000			//add x0, x0, #0x568
-#define ADD_COMMIT_7633_3445 0x9132c108		//add x8, x8, #0xcb0
+#define ADD_COMMIT_7633_3445 0x9132c108			//add x8, x8, #0xcb0
 
 // PS7646/3550
 #define SELINUX_ENFORCING_7646_3550 0x185d634
@@ -75,7 +75,7 @@
 #define INIT_CRED_7646_3550 0x15fb568
 #define COMMIT_CREDS_7646_3550 0x4ccb0
 #define ADD_INIT_7646_3550 0x9115a000        		//add x0, x0, #0x568
-#define ADD_COMMIT_7646_3550 0x9132c108        	//add x8, x8, #0xcb0
+#define ADD_COMMIT_7646_3550 0x9132c108       	 	//add x8, x8, #0xcb0
 
 // PS7646/3562
 #define SELINUX_ENFORCING_7646_3562 0x185d634
@@ -83,7 +83,7 @@
 #define INIT_CRED_7646_3562 0x15fb568
 #define COMMIT_CREDS_7646_3562 0x4ccb0
 #define ADD_INIT_7646_3562 0x9115a000        		//add x0, x0, #0x568
-#define ADD_COMMIT_7646_3562 0x9132c108        	//add x8, x8, #0xcb0
+#define ADD_COMMIT_7646_3562 0x9132c108       	 	//add x8, x8, #0xcb0
 
 // PS7646/3565
 #define SELINUX_ENFORCING_7646_3565 0x185d634
@@ -91,7 +91,7 @@
 #define INIT_CRED_7646_3565 0x15fb568
 #define COMMIT_CREDS_7646_3565 0x4ccb0
 #define ADD_INIT_7646_3565 0x9115a000        		//add x0, x0, #0x568
-#define ADD_COMMIT_7646_3565 0x9132c108        	//add x8, x8, #0xcb0
+#define ADD_COMMIT_7646_3565 0x9132c108        		//add x8, x8, #0xcb0
 
 // PS7652/3556
 #define SELINUX_ENFORCING_7652_3556 0x185d634
@@ -99,7 +99,7 @@
 #define INIT_CRED_7652_3556 0x15fb568
 #define COMMIT_CREDS_7652_3556 0x4ccb0
 #define ADD_INIT_7652_3556 0x9115a000        		//add x0, x0, #0x568
-#define ADD_COMMIT_7652_3556 0x9132c108        	//add x8, x8, #0xcb0
+#define ADD_COMMIT_7652_3556 0x9132c108       	 	//add x8, x8, #0xcb0
 
 // PS7652/3564
 #define SELINUX_ENFORCING_7652_3564 0x185d634
@@ -107,7 +107,7 @@
 #define INIT_CRED_7652_3564 0x15fb568
 #define COMMIT_CREDS_7652_3564 0x4ccb0
 #define ADD_INIT_7652_3564 0x9115a000        		//add x0, x0, #0x568
-#define ADD_COMMIT_7652_3564 0x9132c108        	//add x8, x8, #0xcb0
+#define ADD_COMMIT_7652_3564 0x9132c108        		//add x8, x8, #0xcb0
 
 //static uint64_t sel_read_enforce = SEL_READ_ENFORCE_2211;
 static uint64_t sel_read_handle_unknown = SEL_READ_HANDLE_UNKNOWN_7633_3445;
